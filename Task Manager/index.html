@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h3>Task Manager</h3>
+        <form>
+            <input id="task-input" type="text" placeholder="Add a task">
+            <button id="add-btn">Add task</button>
+        </form>
+        <textarea id="taskDescription" placeholder="Task Description"></textarea>
+        <input type="date" id="taskDueDate">
+        <button class="clear-tasks">Clear All Tasks</button>
+        <div class="container1">
+            <input type="radio" id="all" name="filter" value="All" checked>
+            <label for="all">All</label>
+            <input type="radio" id="complete" name="filter" value="Complete">
+            <label for="complete">Complete</label>
+            <input type="radio" id="incomplete" name="filter" value="Incomplete">
+            <label for="incomplete">Incomplete</label>
+            <input type="text" id="searchTasks" placeholder="Search tasks...">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

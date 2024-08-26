@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+   
+}
+
+.container {
+    border: 1px solid black;
+    width: 500px;
+    margin: 32px auto;
+    padding: 16px;
+    background-color: rgb(209, 205, 205);
+}
+
+h3 {
+    
+    text-align: center;
+    padding: 1rem 0;
+}
+
+form {
+    
+    width: 400px;
+    border: 1px;
+}
+
+#task-input {
+    
+    width: 300px;
+    height: 20px;
+}
+
+.add-btn {
+    
+    width: 80px;
+    background-color: rgb(128, 247, 128); 
+}
+
+.add-btn:hover {
+
+    background-color: rgb(251, 154, 8);
+}
+
+#taskDescription {
+  
+    width: 300px;
+    margin: 10px 0;
+    height: 40px;
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+.completed-task {
+    text-decoration: line-through;
+}
+
+.clear-tasks {
+    margin: 10px 0;
+    background-color: red;
+    color: antiquewhite;
+}
+
+#taskDueDate {
+    display: flex;
+    flex: 1;
+    background-color: rgb(211, 211, 254);
+}
+
+#searchTasks {
+    margin: 10px;
+}
